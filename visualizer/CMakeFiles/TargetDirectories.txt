@@ -1,0 +1,7 @@
+/home/bian/software/demo/visualizer/CMakeFiles/install/strip.dir
+/home/bian/software/demo/visualizer/CMakeFiles/install/local.dir
+/home/bian/software/demo/visualizer/CMakeFiles/edit_cache.dir
+/home/bian/software/demo/visualizer/CMakeFiles/show.dir
+/home/bian/software/demo/visualizer/CMakeFiles/rebuild_cache.dir
+/home/bian/software/demo/visualizer/CMakeFiles/install.dir
+/home/bian/software/demo/visualizer/CMakeFiles/list_install_components.dir

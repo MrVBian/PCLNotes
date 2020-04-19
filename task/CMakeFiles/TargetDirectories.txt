@@ -1,0 +1,7 @@
+/home/bian/software/demo/task/CMakeFiles/install/strip.dir
+/home/bian/software/demo/task/CMakeFiles/install/local.dir
+/home/bian/software/demo/task/CMakeFiles/edit_cache.dir
+/home/bian/software/demo/task/CMakeFiles/show.dir
+/home/bian/software/demo/task/CMakeFiles/rebuild_cache.dir
+/home/bian/software/demo/task/CMakeFiles/install.dir
+/home/bian/software/demo/task/CMakeFiles/list_install_components.dir

@@ -1,0 +1,7 @@
+/home/bian/software/demo/test/CMakeFiles/edit_cache.dir
+/home/bian/software/demo/test/CMakeFiles/install/strip.dir
+/home/bian/software/demo/test/CMakeFiles/install/local.dir
+/home/bian/software/demo/test/CMakeFiles/pcl_test.dir
+/home/bian/software/demo/test/CMakeFiles/rebuild_cache.dir
+/home/bian/software/demo/test/CMakeFiles/list_install_components.dir
+/home/bian/software/demo/test/CMakeFiles/install.dir
