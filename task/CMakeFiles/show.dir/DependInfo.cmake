@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bian/software/demo/task/demo.cpp" "/home/bian/software/demo/task/CMakeFiles/show.dir/demo.cpp.o"
+  "/home/bian/document/github/PCLNotes/task/show.cpp" "/home/bian/document/github/PCLNotes/task/CMakeFiles/show.dir/show.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

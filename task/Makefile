@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bian/software/demo/task
+CMAKE_SOURCE_DIR = /home/bian/document/github/PCLNotes/task
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bian/software/demo/task
+CMAKE_BINARY_DIR = /home/bian/document/github/PCLNotes/task
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bian/software/demo/task/CMakeFiles /home/bian/software/demo/task/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bian/document/github/PCLNotes/task/CMakeFiles /home/bian/document/github/PCLNotes/task/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bian/software/demo/task/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bian/document/github/PCLNotes/task/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,32 +169,32 @@ show/fast:
 	$(MAKE) -f CMakeFiles/show.dir/build.make CMakeFiles/show.dir/build
 .PHONY : show/fast
 
-demo.o: demo.cpp.o
+show.o: show.cpp.o
 
-.PHONY : demo.o
+.PHONY : show.o
 
 # target to build an object file
-demo.cpp.o:
-	$(MAKE) -f CMakeFiles/show.dir/build.make CMakeFiles/show.dir/demo.cpp.o
-.PHONY : demo.cpp.o
+show.cpp.o:
+	$(MAKE) -f CMakeFiles/show.dir/build.make CMakeFiles/show.dir/show.cpp.o
+.PHONY : show.cpp.o
 
-demo.i: demo.cpp.i
+show.i: show.cpp.i
 
-.PHONY : demo.i
+.PHONY : show.i
 
 # target to preprocess a source file
-demo.cpp.i:
-	$(MAKE) -f CMakeFiles/show.dir/build.make CMakeFiles/show.dir/demo.cpp.i
-.PHONY : demo.cpp.i
+show.cpp.i:
+	$(MAKE) -f CMakeFiles/show.dir/build.make CMakeFiles/show.dir/show.cpp.i
+.PHONY : show.cpp.i
 
-demo.s: demo.cpp.s
+show.s: show.cpp.s
 
-.PHONY : demo.s
+.PHONY : show.s
 
 # target to generate assembly for a file
-demo.cpp.s:
-	$(MAKE) -f CMakeFiles/show.dir/build.make CMakeFiles/show.dir/demo.cpp.s
-.PHONY : demo.cpp.s
+show.cpp.s:
+	$(MAKE) -f CMakeFiles/show.dir/build.make CMakeFiles/show.dir/show.cpp.s
+.PHONY : show.cpp.s
 
 # Help Target
 help:
@@ -209,9 +209,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... demo.o"
-	@echo "... demo.i"
-	@echo "... demo.s"
+	@echo "... show.o"
+	@echo "... show.i"
+	@echo "... show.s"
 .PHONY : help
 
 

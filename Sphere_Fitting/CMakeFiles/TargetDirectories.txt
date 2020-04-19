@@ -1,0 +1,7 @@
+/home/bian/document/github/PCLNotes/Sphere_Fitting/CMakeFiles/install/strip.dir
+/home/bian/document/github/PCLNotes/Sphere_Fitting/CMakeFiles/install/local.dir
+/home/bian/document/github/PCLNotes/Sphere_Fitting/CMakeFiles/edit_cache.dir
+/home/bian/document/github/PCLNotes/Sphere_Fitting/CMakeFiles/show.dir
+/home/bian/document/github/PCLNotes/Sphere_Fitting/CMakeFiles/rebuild_cache.dir
+/home/bian/document/github/PCLNotes/Sphere_Fitting/CMakeFiles/install.dir
+/home/bian/document/github/PCLNotes/Sphere_Fitting/CMakeFiles/list_install_components.dir
