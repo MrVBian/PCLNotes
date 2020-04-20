@@ -28,10 +28,10 @@ int main (int argc, char** argv){
     // Optional 优化系数
     seg.setOptimizeCoefficients (true);
     // Mandatory 强制性
-    seg.setModelType (pcl::SACMODEL_PLANE);
+    seg.setModelType (pcl::SACMODEL_SPHERE);
     seg.setMethodType (pcl::SAC_RANSAC);
     // 距离阈值 单位m
-    seg.setDistanceThreshold (0.15);
+    seg.setDistanceThreshold (505);
     seg.setInputCloud (cloud);
     seg.segment (*inliers, *coefficients);
     if (inliers->indices.size () == 0){
@@ -50,7 +50,7 @@ int main (int argc, char** argv){
     std::cerr << *cloud_filtered << std::endl;
  
     pcl::PLYWriter writer;
-    writer.write<pcl::PointXYZ> ("3dpoints_ground.pcd", *cloud_filtered, false);
+    writer.write<pcl::PointXYZ> ("3dpoints_ground.ply", *cloud_filtered, false);
  
     // 提取除地面外的物体
     extract.setNegative (true);
@@ -59,7 +59,7 @@ int main (int argc, char** argv){
     std::cerr << "Object cloud after filtering: " << std::endl;
     std::cerr << *cloud_filtered << std::endl;
  
-    writer.write<pcl::PointXYZ> ("3dpoints_object.pcd", *cloud_filtered, false);
+    writer.write<pcl::PointXYZ> ("3dpoints_object.ply", *cloud_filtered, false);
  
     // 点云可视化
     pcl::visualization::CloudViewer viewer("Filtered");
@@ -71,3 +71,4 @@ int main (int argc, char** argv){
     }
     return (0);
 }
+
