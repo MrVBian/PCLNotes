@@ -43,7 +43,7 @@ int main( int argc, char** argv ){
 	/* initialize PointClouds */
 	pcl::PointCloud<pcl::PointXYZ>::Ptr	cloud( new pcl::PointCloud<pcl::PointXYZ>);
 	pcl::PointCloud<pcl::PointXYZ>::Ptr	final( new pcl::PointCloud<pcl::PointXYZ>);
-	if ( pcl::io::loadPLYFile<pcl::PointXYZ>( "/home/bian/software/test.ply", *cloud ) == -1 ){
+	if ( pcl::io::loadPLYFile<pcl::PointXYZ>( "../datas/SphereDivision.ply", *cloud ) == -1 ){
 		PCL_ERROR( "Couldn't read file\n" );
 		return(-1);
 	}

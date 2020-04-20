@@ -1,7 +1,0 @@
-/home/bian/software/demo/color_visualizer/CMakeFiles/install/strip.dir
-/home/bian/software/demo/color_visualizer/CMakeFiles/install/local.dir
-/home/bian/software/demo/color_visualizer/CMakeFiles/edit_cache.dir
-/home/bian/software/demo/color_visualizer/CMakeFiles/show.dir
-/home/bian/software/demo/color_visualizer/CMakeFiles/rebuild_cache.dir
-/home/bian/software/demo/color_visualizer/CMakeFiles/install.dir
-/home/bian/software/demo/color_visualizer/CMakeFiles/list_install_components.dir

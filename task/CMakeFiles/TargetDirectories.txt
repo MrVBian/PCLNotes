@@ -1,7 +1,0 @@
-/home/bian/document/github/PCLNotes/task/CMakeFiles/install/strip.dir
-/home/bian/document/github/PCLNotes/task/CMakeFiles/install/local.dir
-/home/bian/document/github/PCLNotes/task/CMakeFiles/edit_cache.dir
-/home/bian/document/github/PCLNotes/task/CMakeFiles/show.dir
-/home/bian/document/github/PCLNotes/task/CMakeFiles/rebuild_cache.dir
-/home/bian/document/github/PCLNotes/task/CMakeFiles/install.dir
-/home/bian/document/github/PCLNotes/task/CMakeFiles/list_install_components.dir
