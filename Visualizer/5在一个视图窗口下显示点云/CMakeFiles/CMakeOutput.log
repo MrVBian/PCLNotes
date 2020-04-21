@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5dc0f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5dc0f.dir/build.make CMakeFiles/cmTC_5dc0f.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_5dc0f.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5dc0f.dir/testCCompiler.c.o   -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_5dc0f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dc0f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5dc0f.dir/testCCompiler.c.o  -o cmTC_5dc0f 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_73563/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73563.dir/build.make CMakeFiles/cmTC_73563.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_73563.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_73563.dir/testCCompiler.c.o   -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_73563
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73563.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_73563.dir/testCCompiler.c.o  -o cmTC_73563 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_56641/fast"
-/usr/bin/make -f CMakeFiles/cmTC_56641.dir/build.make CMakeFiles/cmTC_56641.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_56641
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56641.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o  -o cmTC_56641 
+Run Build Command:"/usr/bin/make" "cmTC_281e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_281e5.dir/build.make CMakeFiles/cmTC_281e5.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_281e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_281e5.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o  -o cmTC_281e5 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_56641' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJpCQFC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_56641 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_281e5' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbhP5W9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_281e5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_56641/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_56641.dir/build.make CMakeFiles/cmTC_56641.dir/build]
-  ignore line: [make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_56641]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56641.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o  -o cmTC_56641 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_281e5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_281e5.dir/build.make CMakeFiles/cmTC_281e5.dir/build]
+  ignore line: [make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_281e5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_281e5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o  -o cmTC_281e5 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_56641' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJpCQFC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_56641 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_281e5' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbhP5W9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_281e5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccJpCQFC.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbhP5W9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_56641] ==> ignore
+    arg [cmTC_281e5] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o] ==> ignore
@@ -123,7 +123,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_56641.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_281e5.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d810/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d810.dir/build.make CMakeFiles/cmTC_5d810.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_5d810.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5d810.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5d810
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d810.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5d810.dir/feature_tests.c.o  -o cmTC_5d810 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_82011/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82011.dir/build.make CMakeFiles/cmTC_82011.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_82011.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_82011.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.c
+Linking C executable cmTC_82011
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82011.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_82011.dir/feature_tests.c.o  -o cmTC_82011 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_96b5e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_96b5e.dir/build.make CMakeFiles/cmTC_96b5e.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_96b5e.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_96b5e.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.c
-Linking C executable cmTC_96b5e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b5e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_96b5e.dir/feature_tests.c.o  -o cmTC_96b5e 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_99af0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99af0.dir/build.make CMakeFiles/cmTC_99af0.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_99af0.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_99af0.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.c
+Linking C executable cmTC_99af0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99af0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_99af0.dir/feature_tests.c.o  -o cmTC_99af0 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c1f79/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c1f79.dir/build.make CMakeFiles/cmTC_c1f79.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_c1f79.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_c1f79.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c1f79
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1f79.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c1f79.dir/feature_tests.c.o  -o cmTC_c1f79 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_a275a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a275a.dir/build.make CMakeFiles/cmTC_a275a.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a275a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a275a.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a275a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a275a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a275a.dir/feature_tests.c.o  -o cmTC_a275a 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0fc45/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0fc45.dir/build.make CMakeFiles/cmTC_0fc45.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_0fc45.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_0fc45.dir/testCXXCompiler.cxx.o -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_0fc45
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fc45.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0fc45.dir/testCXXCompiler.cxx.o  -o cmTC_0fc45 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_1fd30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fd30.dir/build.make CMakeFiles/cmTC_1fd30.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1fd30.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1fd30.dir/testCXXCompiler.cxx.o -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1fd30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fd30.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1fd30.dir/testCXXCompiler.cxx.o  -o cmTC_1fd30 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3d55a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d55a.dir/build.make CMakeFiles/cmTC_3d55a.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_3d55a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d55a.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3d55a 
+Run Build Command:"/usr/bin/make" "cmTC_2c6d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c6d5.dir/build.make CMakeFiles/cmTC_2c6d5.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2c6d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c6d5.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2c6d5 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3d55a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsBAI5Z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3d55a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2c6d5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPjG8st.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2c6d5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3d55a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3d55a.dir/build.make CMakeFiles/cmTC_3d55a.dir/build]
-  ignore line: [make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_3d55a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d55a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3d55a ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2c6d5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2c6d5.dir/build.make CMakeFiles/cmTC_2c6d5.dir/build]
+  ignore line: [make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2c6d5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c6d5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2c6d5 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3d55a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsBAI5Z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3d55a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2c6d5' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPjG8st.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2c6d5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccsBAI5Z.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPjG8st.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -296,7 +296,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3d55a] ==> ignore
+    arg [cmTC_2c6d5] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o] ==> ignore
@@ -308,7 +308,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_3d55a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_2c6d5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -334,17 +334,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1dd08/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1dd08.dir/build.make CMakeFiles/cmTC_1dd08.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_1dd08.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_1dd08.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1dd08
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dd08.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1dd08.dir/feature_tests.cxx.o  -o cmTC_1dd08 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_9e3f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e3f9.dir/build.make CMakeFiles/cmTC_9e3f9.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_9e3f9.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_9e3f9.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9e3f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e3f9.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9e3f9.dir/feature_tests.cxx.o  -o cmTC_9e3f9 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -407,17 +407,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_efc2f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_efc2f.dir/build.make CMakeFiles/cmTC_efc2f.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_efc2f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_efc2f.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_efc2f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efc2f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_efc2f.dir/feature_tests.cxx.o  -o cmTC_efc2f 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_e108a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e108a.dir/build.make CMakeFiles/cmTC_e108a.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e108a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e108a.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e108a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e108a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e108a.dir/feature_tests.cxx.o  -o cmTC_e108a 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -480,17 +480,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b359b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b359b.dir/build.make CMakeFiles/cmTC_b359b.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_b359b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b359b.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b359b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b359b.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b359b.dir/feature_tests.cxx.o  -o cmTC_b359b 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_1a06e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a06e.dir/build.make CMakeFiles/cmTC_1a06e.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1a06e.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_1a06e.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1a06e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a06e.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1a06e.dir/feature_tests.cxx.o  -o cmTC_1a06e 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,17 +553,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8e43/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c8e43.dir/build.make CMakeFiles/cmTC_c8e43.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_c8e43.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_c8e43.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c8e43
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8e43.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c8e43.dir/feature_tests.cxx.o  -o cmTC_c8e43 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_f6375/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6375.dir/build.make CMakeFiles/cmTC_f6375.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f6375.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f6375.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f6375
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6375.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f6375.dir/feature_tests.cxx.o  -o cmTC_f6375 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -624,30 +624,30 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ae9cc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ae9cc.dir/build.make CMakeFiles/cmTC_ae9cc.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_ae9cc.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ae9cc.dir/CheckIncludeFile.c.o   -c /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_ae9cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae9cc.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ae9cc.dir/CheckIncludeFile.c.o  -o cmTC_ae9cc 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_61b81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61b81.dir/build.make CMakeFiles/cmTC_61b81.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_61b81.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_61b81.dir/CheckIncludeFile.c.o   -c /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61b81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61b81.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_61b81.dir/CheckIncludeFile.c.o  -o cmTC_61b81 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_24e9a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_24e9a.dir/build.make CMakeFiles/cmTC_24e9a.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_24e9a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_24e9a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_24e9a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24e9a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_24e9a.dir/CheckFunctionExists.c.o  -o cmTC_24e9a -lpthread 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_6e115/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e115.dir/build.make CMakeFiles/cmTC_6e115.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6e115.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6e115.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6e115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e115.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6e115.dir/CheckFunctionExists.c.o  -o cmTC_6e115 -lpthread 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/CMakeFiles/CMakeTmp”
 
 

@@ -14,8 +14,8 @@ using namespace io;
 int main() {
 	PointCloud<PointXYZ>::Ptr cloud(new PointCloud<PointXYZ>);
 
-	if (io::loadPLYFile("/home/bian/software/test.ply", *cloud) == -1) { 
-		cerr << "can't read file ping2.pcd" << endl;
+	if (io::loadPLYFile("../../datas/SphereDivision.ply", *cloud) == -1) { 
+		cerr << "can't read file file.ply" << endl;
 		return -1;
 	}
 

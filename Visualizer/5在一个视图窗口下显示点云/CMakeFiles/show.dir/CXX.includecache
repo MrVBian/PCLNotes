@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/bian/document/github/PCLNotes/可视化/5在一个视图窗口下显示点云/show.cpp
+/home/bian/document/github/PCLNotes/Visualizer/5在一个视图窗口下显示点云/show.cpp
 iostream
 -
 pcl/io/pcd_io.h
