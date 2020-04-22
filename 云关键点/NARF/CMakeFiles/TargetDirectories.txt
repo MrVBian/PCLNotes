@@ -1,0 +1,7 @@
+/home/bian/document/github/PCLNotes/云关键点/NARF/CMakeFiles/install/strip.dir
+/home/bian/document/github/PCLNotes/云关键点/NARF/CMakeFiles/install/local.dir
+/home/bian/document/github/PCLNotes/云关键点/NARF/CMakeFiles/edit_cache.dir
+/home/bian/document/github/PCLNotes/云关键点/NARF/CMakeFiles/show.dir
+/home/bian/document/github/PCLNotes/云关键点/NARF/CMakeFiles/rebuild_cache.dir
+/home/bian/document/github/PCLNotes/云关键点/NARF/CMakeFiles/install.dir
+/home/bian/document/github/PCLNotes/云关键点/NARF/CMakeFiles/list_install_components.dir
