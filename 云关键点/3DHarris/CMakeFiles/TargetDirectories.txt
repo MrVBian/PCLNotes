@@ -1,0 +1,7 @@
+/home/bian/document/github/PCLNotes/云关键点/3DHarris/CMakeFiles/install/strip.dir
+/home/bian/document/github/PCLNotes/云关键点/3DHarris/CMakeFiles/install/local.dir
+/home/bian/document/github/PCLNotes/云关键点/3DHarris/CMakeFiles/edit_cache.dir
+/home/bian/document/github/PCLNotes/云关键点/3DHarris/CMakeFiles/show.dir
+/home/bian/document/github/PCLNotes/云关键点/3DHarris/CMakeFiles/rebuild_cache.dir
+/home/bian/document/github/PCLNotes/云关键点/3DHarris/CMakeFiles/install.dir
+/home/bian/document/github/PCLNotes/云关键点/3DHarris/CMakeFiles/list_install_components.dir

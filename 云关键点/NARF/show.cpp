@@ -21,12 +21,13 @@
  * 看来在三维点云中可以沿用二维图像的定义
  * 不过今天要讲的是另外一种思路，简单粗暴，
  * 直接把三维的点云投射成二维的图像不就好了。
- * 这种投射方法叫做range_image.
+ * 这种投射方法叫做range_image(深度图).
  */
 #include <iostream>                             /* 标准输入输出流 */
 #include <boost/thread/thread.hpp>
 #include <pcl/range_image/range_image.h>        /* RangeImage 深度图像 */
 #include <pcl/io/pcd_io.h>                      /* PCL的PCD格式文件的输入输出头文件 */
+#include <pcl/io/ply_io.h>                      /* PCL的PLY格式文件的输入输出头文件 */
 #include <pcl/visualization/range_image_visualizer.h>
 #include <pcl/visualization/pcl_visualizer.h>
 #include <pcl/features/range_image_border_extractor.h>
@@ -47,14 +48,13 @@ bool					setUnseenToMaxRange	= false;                                /* 是否�
  * 当用户输入命令行参数-h，打印帮助信息
  */
 void printUsage( const char* progName ){
-	std::cout	<< "\n\n用法　Usage: " << progName << " [options] <scene.pcd>\n\n"
+	std::cout	<< "\n\n用法　Usage: " << progName << " [options] <scene.ply>\n\n"
 			<< "Options:\n"
 			<< "-------------------------------------------\n"
 			<< "-r <float>   角度　angular resolution in degrees (default " << angular_resolution << ")\n"
 			<< "-c <int>     坐标系　coordinate frame (default " << (int) coordinate_frame << ")\n"
 			<< "-m           将所有看不见的点视为最大范围读数\n"
-			<< "-s <float>   support size for the interest points (diameter of the used sphere - "
-			<< "default " << support_size << ")\n"
+			<< "-s <float>   感兴趣点的尺寸（球面的直径 - default " << support_size << " )\n"
 			<< "-h           this help\n"
 			<< "\n\n";
 }
@@ -92,38 +92,61 @@ int main( int argc, char** argv ){
 	angular_resolution = pcl::deg2rad( angular_resolution );
 	/*
 	 * ------------------------------------------------------------------
-	 * -----Read pcd file or create example point cloud if not given-----
+	 * -----Read ply file or create example point cloud if not given-----
 	 * ------------------------------------------------------------------
-	 * 读取pcd文件；如果没有指定文件，就创建样本点
+	 * 读取ply文件；如果没有指定文件，就创建样本点
 	 */
 	pcl::PointCloud<PointType>::Ptr			point_cloud_ptr( new pcl::PointCloud<PointType>);       /* 点云对象指针 */
 	pcl::PointCloud<PointType> &			point_cloud = *point_cloud_ptr;                         /* 引用　上面点云的别名　常亮指针 */
 	pcl::PointCloud<pcl::PointWithViewpoint>	far_ranges;                                             /* 带视角的点云 */
 	Eigen::Affine3f					scene_sensor_pose( Eigen::Affine3f::Identity() );       /* 仿射变换 */
-	/* 检查参数中是否有pcd格式文件名，返回参数向量中的索引号 */
-	std::vector<int> pcd_filename_indices = pcl::console::parse_file_extension_argument( argc, argv, "pcd" );
-	if ( !pcd_filename_indices.empty() )
-	{
-		std::string filename = argv[pcd_filename_indices[0]];
-		if ( pcl::io::loadPCDFile( filename, point_cloud ) == -1 )                                      /* 如果指定了pcd文件，读取pcd文件 */
+	/* 检查参数中是否有ply格式文件名，返回参数向量中的索引号 */
+    // std::cout << "argc:" << argc << endl;
+    // for(int i = 0; i < argc; ++i){
+    //     std::cout << "argv[" << i << "]:" << argv[i] << endl;
+    // }
+	std::vector<int> ply_filename_indices = pcl::console::parse_file_extension_argument( argc, argv, "ply" );
+    ply_filename_indices.push_back(1);
+    std::cout << "ply_filename_indices.empty():" << ply_filename_indices.empty() << endl;
+	
+    if ( !ply_filename_indices.empty() )
+        std::cout << "读" << endl;
+    else
+        std::cout << "不读" << !ply_filename_indices.empty() << endl;
+
+    if ( !ply_filename_indices.empty() )
+    {
+		std::string filename = argv[ply_filename_indices[0]];
+        std::cout<< "filename:" << filename << endl;
+		if ( pcl::io::loadPLYFile( filename, point_cloud ) == -1 )                                      /* 如果指定了ply文件，读取ply文件 */
 		{
 			std::cerr << "Was not able to open file \"" << filename << "\".\n";
 			printUsage( argv[0] );
 			return(0);
 		}
+        else{
+            std::cout << "成功读" << endl;
+        }
 		/* 设置传感器的姿势 */
+        // 仿射变换
+        // sensor_origin_:指定传感器采集姿势（原点/平移）
+        // point_cloud.sensor_orientation_:指定传感器采集姿势（旋转）
+        std::cout << "sensor_origin:" << point_cloud.sensor_origin_[0] << "  2:" << point_cloud.sensor_origin_[1] << "  3:" << point_cloud.sensor_origin_[2] << endl;
 		scene_sensor_pose = Eigen::Affine3f( Eigen::Translation3f( point_cloud.sensor_origin_[0],
 									   point_cloud.sensor_origin_[1],
 									   point_cloud.sensor_origin_[2] ) ) *
-				    Eigen::Affine3f( point_cloud.sensor_orientation_ );
+				    Eigen::Affine3f( point_cloud.sensor_orientation_ );// 设置传感器的姿势
 		/* 读取远距离文件? */
-		std::string far_ranges_filename = pcl::getFilenameWithoutExtension( filename ) + "_far_ranges.pcd";
-		if ( pcl::io::loadPCDFile( far_ranges_filename.c_str(), far_ranges ) == -1 )
+		std::string far_ranges_filename = pcl::getFilenameWithoutExtension( filename ) + "_far_ranges.ply"; // 读取远距离pcd文件
+        std::cout << "filename:" << filename << endl;
+        std::cout << filename + "_far_ranges.ply" << endl;
+		if ( pcl::io::loadPLYFile( far_ranges_filename.c_str(), far_ranges ) == -1 )
 			std::cout << "Far ranges file \"" << far_ranges_filename << "\" does not exists.\n";
-	}else  { /* 没有指定pcd文件，生成点云，并填充它 */
-		{
-			for ( float y = -0.5f; y <= 0.5f; y += 0.01f )
-			{
+        else
+            std::cout << "成功读far" << endl;
+	}else { /* 没有指定ply文件，生成点云，并填充它 */
+		for (float x=-0.5f; x<=0.5f; x+=0.01f){
+			for ( float y = -0.5f; y <= 0.5f; y += 0.01f ){
 				PointType point;  point.x = x;  point.y = y;  point.z = 2.0f - y;
 				point_cloud.points.push_back( point );  /* 设置点云中点的坐标 */
 			}
@@ -140,35 +163,35 @@ int main( int argc, char** argv ){
 	 * 直接把三维的点云投射成二维的图像
 	 */
 	float noise_level = 0.0;
-/*
- * noise level表示的是容差率，因为1°X1°的空间内很可能不止一个点，
- * noise level = 0则表示去最近点的距离作为像素值，如果=0.05则表示在最近点及其后5cm范围内求个平均距离
- * minRange表示深度最小值，如果=0则表示取1°X1°的空间内最远点，近的都忽略
- */
+    /*
+     * noise level表示的是容差率，因为1°X1°的空间内很可能不止一个点，
+     * noise level = 0则表示去最近点的距离作为像素值，如果=0.05则表示在最近点及其后5cm范围内求个平均距离
+     * minRange表示深度最小值，如果=0则表示取1°X1°的空间内最远点，近的都忽略
+     */
 	float min_range = 0.0f;
-/* bordersieze表示图像周边点 */
+    /* bordersieze表示图像周边点 */
 	int					border_size = 1;
-	boost::shared_ptr<pcl::RangeImage>	range_image_ptr( new pcl::RangeImage ); /* 创建RangeImage对象（智能指针） */
+    // 深度图
+	boost::shared_ptr<pcl::RangeImage>	range_image_ptr( new pcl::RangeImage ); /* 创建RangeImage对象（指针） */
 	pcl::RangeImage &			range_image = *range_image_ptr;         /* RangeImage的引用 */
 	/* 从点云创建深度图像 */
-/*
- * rangeImage也是PCL的基本数据结构
- * pcl::RangeImage rangeImage;
- * 球坐标系
- * 角分辨率
- * float angularResolution = (float) (  1.0f * (M_PI/180.0f));  //   1.0 degree in radians　弧度
- * phi可以取360°
- *  float maxAngleWidth     = (float) (360.0f * (M_PI/180.0f));  // 360.0 degree in radians
- * a取180°
- *  float maxAngleHeight    = (float) (180.0f * (M_PI/180.0f));  // 180.0 degree in radians
- * 半圆扫一圈就是整个图像了
- */
+    /*
+     * rangeImage也是PCL的基本数据结构
+     * pcl::RangeImage rangeImage;
+     * 球坐标系
+     * 角分辨率
+     * float angularResolution = (float) (  1.0f * (M_PI/180.0f));  //   1.0 degree in radians　弧度
+     * phi可以取360°
+     *  float maxAngleWidth     = (float) (360.0f * (M_PI/180.0f));  // 360.0 degree in radians
+     * a取180°
+     *  float maxAngleHeight    = (float) (180.0f * (M_PI/180.0f));  // 180.0 degree in radians
+     * 半圆扫一圈就是整个图像了
+     */
 	range_image.createFromPointCloud( point_cloud, angular_resolution, pcl::deg2rad( 360.0f ), pcl::deg2rad( 180.0f ),
-					  scene_sensor_pose, coordinate_frame, noise_level, min_range, border_size );
+					  scene_sensor_pose, coordinate_frame, noise_level, min_range, border_size );// 从点云创建深度图像
 	range_image.integrateFarRanges( far_ranges ); /* 整合远距离点云 */
 	if ( setUnseenToMaxRange )
-		range_image.setUnseenToMaxRange();
-
+		range_image.setUnseenToMaxRange();// 将范围图像中的不可见值设置为最大范围读数
 	/*
 	 * --------------------------------------------
 	 * -----Open 3D viewer and add point cloud-----
@@ -247,9 +270,8 @@ int main( int argc, char** argv ){
 	 * -----Main loop-----
 	 * --------------------
 	 */
-	while ( !viewer.wasStopped() )
-	{
-		range_image_widget.spinOnce(); /* process GUI events　　 处理 GUI事件 */
+	while ( !viewer.wasStopped() ){
+		range_image_widget.spinOnce(); /* process GUI events　处理 GUI事件 */
 		viewer.spinOnce();
 		pcl_sleep( 0.01 );
 	}
