@@ -104,7 +104,7 @@ int main( int argc, char** argv ){
 
 	pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> cloud_other_handler( cloud_other, 0, 255, 0 );
 	viewer.addPointCloud( cloud_other, cloud_other_handler, "other point" ); /* 添加点云 */
-	viewer.setPointCloudRenderingProperties( pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 2, "other point" );
+	viewer.setPointCloudRenderingProperties( pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 8, "other point" );
 
 	while ( !viewer.wasStopped() ){
 		viewer.spinOnce( 100 );

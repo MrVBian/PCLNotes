@@ -1,6 +1,5 @@
 #include <pcl/ModelCoefficients.h>                                                                                                                      /* 模型系数 */
 #include <pcl/io/pcd_io.h>
-#include <pcl/io/ply_io.h>
 #include <pcl/point_types.h>
 #include <pcl/filters/extract_indices.h>                                                                                                            /*按索引提取点云 */
 #include <pcl/filters/passthrough.h>                                                                                                                    /* 　直通滤波器 */
@@ -13,11 +12,11 @@
 typedef pcl::PointXYZ PointT;
 int main( int argc, char** argv ){
 	/* 所需要的对象　All the objects needed */
-	pcl::PLYReader						reader;                                                                                 /* PLY文件读取对象 */
+	pcl::PCDReader						reader;                                                                                 /* PCD文件读取对象 */
 	pcl::PassThrough<PointT>				pass;                                                                                   /* 直通滤波对象 */
 	pcl::NormalEstimation<PointT, pcl::Normal>		ne;                                                                                     /* 法线估计对象 */
 	pcl::SACSegmentationFromNormals<PointT, pcl::Normal>	seg;                                                                                /* 依据法线　分割对象 */
-	pcl::PLYWriter						writer;                                                                                 /* PLY文件写对象 */
+	pcl::PCDWriter						writer;                                                                                 /* PCD文件写对象 */
 	pcl::ExtractIndices<PointT>				extract;                                                                                /* 点　提取对象 */
 	pcl::ExtractIndices<pcl::Normal>			extract_normals;                                                                        /* /点法线特征　提取对象 */
 	pcl::search::KdTree<PointT>::Ptr			tree( new pcl::search::KdTree<PointT> () );
@@ -32,7 +31,7 @@ int main( int argc, char** argv ){
 	pcl::PointIndices::Ptr			inliers_plane( new pcl::PointIndices ), inliers_cylinder( new pcl::PointIndices );                      /* 内点索引 */
 
 	/* 读取桌面场景点云　Read in the cloud data */
-	reader.read( "../../surface/table_scene_mug_stereo_textured.ply", *cloud );
+	reader.read( "../../datas/table_scene_mug_stereo_textured.pcd", *cloud );
 	std::cerr << "PointCloud has: " << cloud->points.size() << " data points." << std::endl;
 
 	/* 直通滤波，将Z轴不在（0，1.5）范围的点过滤掉，将剩余的点存储到cloud_filtered对象中 */
@@ -72,7 +71,7 @@ int main( int argc, char** argv ){
 	pcl::PointCloud<PointT>::Ptr cloud_plane( new pcl::PointCloud<PointT> () );
 	extract.filter( *cloud_plane );                 /* 平面上的点云 */
 	std::cerr << "PointCloud representing the planar component: " << cloud_plane->points.size() << " data points." << std::endl;
-	writer.write( "table_scene_mug_stereo_textured_plane.ply", *cloud_plane, false );
+	writer.write( "table_scene_mug_stereo_textured_plane.pcd", *cloud_plane, false );
 
 	/* 提取　得到平面上的点云　（外点）　以及其法线特征 */
 	extract.setNegative( true );                    /* 除去内点 */
@@ -107,7 +106,7 @@ int main( int argc, char** argv ){
 		std::cerr << "Can't find the cylindrical component." << std::endl;
 	else{
 		std::cerr << "PointCloud representing the cylindrical component: " << cloud_cylinder->points.size() << " data points." << std::endl;
-		writer.write( "table_scene_mug_stereo_textured_cylinder.ply", *cloud_cylinder, false );
+		writer.write( "table_scene_mug_stereo_textured_cylinder.pcd", *cloud_cylinder, false );
 	}
 
     /* 3D点云显示 绿色 */
