@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a73c5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a73c5.dir/build.make CMakeFiles/cmTC_a73c5.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_a73c5.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a73c5.dir/testCCompiler.c.o   -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a73c5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a73c5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a73c5.dir/testCCompiler.c.o  -o cmTC_a73c5 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_e8866/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8866.dir/build.make CMakeFiles/cmTC_e8866.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e8866.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e8866.dir/testCCompiler.c.o   -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e8866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8866.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e8866.dir/testCCompiler.c.o  -o cmTC_e8866 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48364/fast"
-/usr/bin/make -f CMakeFiles/cmTC_48364.dir/build.make CMakeFiles/cmTC_48364.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_48364
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48364.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o  -o cmTC_48364 
+Run Build Command:"/usr/bin/make" "cmTC_88bbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88bbf.dir/build.make CMakeFiles/cmTC_88bbf.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_88bbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88bbf.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o  -o cmTC_88bbf 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48364' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6K38Jf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_48364 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_88bbf' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2l2gzC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88bbf /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_48364/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_48364.dir/build.make CMakeFiles/cmTC_48364.dir/build]
-  ignore line: [make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_48364]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48364.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o  -o cmTC_48364 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_88bbf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_88bbf.dir/build.make CMakeFiles/cmTC_88bbf.dir/build]
+  ignore line: [make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_88bbf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88bbf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o  -o cmTC_88bbf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48364' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6K38Jf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_48364 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_88bbf' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2l2gzC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88bbf /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc6K38Jf.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2l2gzC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_48364] ==> ignore
+    arg [cmTC_88bbf] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o] ==> ignore
@@ -123,7 +123,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_48364.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_88bbf.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_142e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_142e4.dir/build.make CMakeFiles/cmTC_142e4.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_142e4.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_142e4.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.c
-Linking C executable cmTC_142e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_142e4.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_142e4.dir/feature_tests.c.o  -o cmTC_142e4 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_053f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_053f9.dir/build.make CMakeFiles/cmTC_053f9.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_053f9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_053f9.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.c
+Linking C executable cmTC_053f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_053f9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_053f9.dir/feature_tests.c.o  -o cmTC_053f9 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏�
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ae90/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ae90.dir/build.make CMakeFiles/cmTC_3ae90.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_3ae90.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_3ae90.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3ae90
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae90.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3ae90.dir/feature_tests.c.o  -o cmTC_3ae90 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_94470/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94470.dir/build.make CMakeFiles/cmTC_94470.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_94470.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_94470.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.c
+Linking C executable cmTC_94470
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94470.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_94470.dir/feature_tests.c.o  -o cmTC_94470 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏�
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4f945/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4f945.dir/build.make CMakeFiles/cmTC_4f945.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4f945.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4f945.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4f945
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f945.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4f945.dir/feature_tests.c.o  -o cmTC_4f945 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_6be79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6be79.dir/build.make CMakeFiles/cmTC_6be79.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6be79.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_6be79.dir/feature_tests.c.o   -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6be79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6be79.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6be79.dir/feature_tests.c.o  -o cmTC_6be79 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏�
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_14dfa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_14dfa.dir/build.make CMakeFiles/cmTC_14dfa.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_14dfa.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_14dfa.dir/testCXXCompiler.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_14dfa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14dfa.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_14dfa.dir/testCXXCompiler.cxx.o  -o cmTC_14dfa 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_c5fd6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5fd6.dir/build.make CMakeFiles/cmTC_c5fd6.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c5fd6.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c5fd6.dir/testCXXCompiler.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c5fd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5fd6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c5fd6.dir/testCXXCompiler.cxx.o  -o cmTC_c5fd6 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b16c0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b16c0.dir/build.make CMakeFiles/cmTC_b16c0.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b16c0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b16c0.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b16c0 
+Run Build Command:"/usr/bin/make" "cmTC_2ff37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ff37.dir/build.make CMakeFiles/cmTC_2ff37.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2ff37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ff37.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2ff37 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b16c0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6TIdpL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b16c0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2ff37' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqXYU75.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2ff37 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b16c0/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b16c0.dir/build.make CMakeFiles/cmTC_b16c0.dir/build]
-  ignore line: [make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b16c0]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b16c0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b16c0 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2ff37/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2ff37.dir/build.make CMakeFiles/cmTC_2ff37.dir/build]
+  ignore line: [make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2ff37]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ff37.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2ff37 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b16c0' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6TIdpL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b16c0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2ff37' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqXYU75.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2ff37 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc6TIdpL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqXYU75.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -296,7 +296,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b16c0] ==> ignore
+    arg [cmTC_2ff37] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o] ==> ignore
@@ -308,7 +308,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_b16c0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_2ff37.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -334,17 +334,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_369e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_369e4.dir/build.make CMakeFiles/cmTC_369e4.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_369e4.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_369e4.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_369e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_369e4.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_369e4.dir/feature_tests.cxx.o  -o cmTC_369e4 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_516fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_516fc.dir/build.make CMakeFiles/cmTC_516fc.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_516fc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_516fc.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_516fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_516fc.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_516fc.dir/feature_tests.cxx.o  -o cmTC_516fc 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -407,17 +407,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏�
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_698e7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_698e7.dir/build.make CMakeFiles/cmTC_698e7.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_698e7.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_698e7.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_698e7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_698e7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_698e7.dir/feature_tests.cxx.o  -o cmTC_698e7 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_d6493/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6493.dir/build.make CMakeFiles/cmTC_d6493.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d6493.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_d6493.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d6493
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6493.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d6493.dir/feature_tests.cxx.o  -o cmTC_d6493 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -480,17 +480,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏�
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77814/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77814.dir/build.make CMakeFiles/cmTC_77814.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_77814.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_77814.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_77814
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77814.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_77814.dir/feature_tests.cxx.o  -o cmTC_77814 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_6c340/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c340.dir/build.make CMakeFiles/cmTC_6c340.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_6c340.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_6c340.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6c340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c340.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6c340.dir/feature_tests.cxx.o  -o cmTC_6c340 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,17 +553,17 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏�
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_57a44/fast"
-/usr/bin/make -f CMakeFiles/cmTC_57a44.dir/build.make CMakeFiles/cmTC_57a44.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_57a44.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_57a44.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_57a44
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57a44.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_57a44.dir/feature_tests.cxx.o  -o cmTC_57a44 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_c0acc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0acc.dir/build.make CMakeFiles/cmTC_c0acc.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c0acc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_c0acc.dir/feature_tests.cxx.o -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c0acc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0acc.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c0acc.dir/feature_tests.cxx.o  -o cmTC_c0acc 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -624,30 +624,30 @@ make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏�
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07c15/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07c15.dir/build.make CMakeFiles/cmTC_07c15.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_07c15.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_07c15.dir/CheckIncludeFile.c.o   -c /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_07c15
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07c15.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_07c15.dir/CheckIncludeFile.c.o  -o cmTC_07c15 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_dafbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dafbc.dir/build.make CMakeFiles/cmTC_dafbc.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_dafbc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dafbc.dir/CheckIncludeFile.c.o   -c /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dafbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dafbc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dafbc.dir/CheckIncludeFile.c.o  -o cmTC_dafbc 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_50155/fast"
-/usr/bin/make -f CMakeFiles/cmTC_50155.dir/build.make CMakeFiles/cmTC_50155.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_50155.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_50155.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_50155
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50155.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_50155.dir/CheckFunctionExists.c.o  -o cmTC_50155 -lpthread 
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_79499/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79499.dir/build.make CMakeFiles/cmTC_79499.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_79499.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_79499.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_79499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79499.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_79499.dir/CheckFunctionExists.c.o  -o cmTC_79499 -lpthread 
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/CMakeTmp”
 
 

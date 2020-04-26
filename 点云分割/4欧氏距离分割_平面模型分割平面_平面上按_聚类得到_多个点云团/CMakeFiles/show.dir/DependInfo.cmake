@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/show.cpp" "/home/bian/document/github/PCLNotes/点云分割/欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/show.dir/show.cpp.o"
+  "/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/show.cpp" "/home/bian/document/github/PCLNotes/点云分割/4欧氏距离分割_平面模型分割平面_平面上按_聚类得到_多个点云团/CMakeFiles/show.dir/show.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

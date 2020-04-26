@@ -16,12 +16,11 @@
 *  打开点云数据，并对点云进行滤波重采样预处理，然后采用平面分割模型对点云进行分割处理
 *  提取出点云中所有在平面上的点集，并将其存盘
 ******************************************************************************/
-int main( int argc, char** argv )
-{
+int main( int argc, char** argv ){
 	/* 读取桌面场景点云 */
 	pcl::PCDReader				reader;
 	pcl::PointCloud<pcl::PointXYZ>::Ptr	cloud( new pcl::PointCloud<pcl::PointXYZ>), cloud_f( new pcl::PointCloud<pcl::PointXYZ>);
-	reader.read( "../../Filtering/table_scene_lms400.pcd", *cloud );
+	reader.read( "../../datas/table_scene_mug_stereo_textured.pcd", *cloud );
 	std::cout << "PointCloud before filtering has: " << cloud->points.size() << " data points." << std::endl;       /* * */
     /*
      * 之前可进行　统计学滤波去除外点
