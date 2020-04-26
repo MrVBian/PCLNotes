@@ -13,8 +13,7 @@ int main( int argc, char** argv ){
 	/* 点云的类型 */
 	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud( new pcl::PointCloud<pcl::PointXYZ>);
 	/* 打开点云pdc文件　载入点云 */
-	if ( pcl::io::loadPCDFile <pcl::PointXYZ> ( "../region_growing_tutorial.pcd", *cloud ) == -1 )
-	{
+	if ( pcl::io::loadPCDFile <pcl::PointXYZ> ( "../../datas/region_growing_tutorial.pcd", *cloud ) == -1 ){
 		std::cout << "Cloud reading failed." << std::endl;
 		return(-1);
 	}

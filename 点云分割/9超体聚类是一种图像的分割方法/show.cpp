@@ -42,7 +42,7 @@ int main( int argc, char ** argv ){
 	/* 打开点云 */
 	PointCloudT::Ptr cloud = boost::shared_ptr <PointCloudT> ( new PointCloudT() );
 	pcl::console::print_highlight( "Loading point cloud...\n" );
-	if ( pcl::io::loadPCDFile<PointT> ( "../milk_cartoon_all_small_clorox.pcd", *cloud ) ){
+	if ( pcl::io::loadPCDFile<PointT> ( "../../datas/milk_cartoon_all_small_clorox.pcd", *cloud ) ){
 		pcl::console::print_error( "Error loading cloud file!\n" );
 		return(1);
 	}

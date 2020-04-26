@@ -1,3 +1,5 @@
+![效果演示](./imgs/Demonstration.png) 
+
 # pcl::RegionGrowing
 
 区域生成的分割法

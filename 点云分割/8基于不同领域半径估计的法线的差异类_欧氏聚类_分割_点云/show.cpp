@@ -24,8 +24,7 @@ int main( int argc, char *argv[] ) {
 	/* 欧式聚类提取 segment scene into clusters with given distance tolerance using euclidean clustering */
 	double segradius;
 
-	if ( argc < 6 )
-	{
+	if ( argc < 6 ){
 		cerr << "usage: " << argv[0] << " inputfile smallscale largescale threshold segradius" << endl;
 		exit( EXIT_FAILURE );
 	}
@@ -47,8 +46,7 @@ int main( int argc, char *argv[] ) {
 
 	/* Create a search tree, use KDTreee for non-organized data. */
 	pcl::search::Search<PointXYZRGB>::Ptr tree;
-	if ( cloud->isOrganized() )
-	{
+	if ( cloud->isOrganized() ){
 		tree.reset( new pcl::search::OrganizedNeighbor<PointXYZRGB> () );
 	}else  {
 		tree.reset( new pcl::search::KdTree<PointXYZRGB> ( false ) );
@@ -57,8 +55,7 @@ int main( int argc, char *argv[] ) {
 	/* Set the input pointcloud for the search tree */
 	tree->setInputCloud( cloud );
 
-	if ( scale1 >= scale2 )
-	{
+	if ( scale1 >= scale2 ){
 		cerr << "Error: Large scale must be > small scale!" << endl;
 		exit( EXIT_FAILURE );
 	}
@@ -75,7 +72,7 @@ int main( int argc, char *argv[] ) {
 	 */
 	ne.setViewPoint( std::numeric_limits<float>::max(), std::numeric_limits<float>::max(), std::numeric_limits<float>::max() );
 
-/* 估计small领域半径 r_ｓ 下的　法线 calculate normals with the small scale */
+    /* 估计small领域半径 r_ｓ 下的　法线 calculate normals with the small scale */
 	cout << "Calculating normals for scale..." << scale1 << endl;
 	pcl::PointCloud<PointNormal>::Ptr normals_small_scale( new pcl::PointCloud<PointNormal>);
 	ne.setRadiusSearch( scale1 );
@@ -98,8 +95,7 @@ int main( int argc, char *argv[] ) {
 	don.setNormalScaleLarge( normals_large_scale );
 	don.setNormalScaleSmall( normals_small_scale );
 
-	if ( !don.initCompute() )
-	{
+	if ( !don.initCompute() ){
 		std::cerr << "Error: Could not initialize DoN feature operator" << std::endl;
 		exit( EXIT_FAILURE );
 	}
@@ -151,11 +147,9 @@ int main( int argc, char *argv[] ) {
 	ec.extract( cluster_indices );
 
 	int j = 0;
-	for ( std::vector<pcl::PointIndices>::const_iterator it = cluster_indices.begin(); it != cluster_indices.end(); ++it, j++ )
-	{
+	for ( std::vector<pcl::PointIndices>::const_iterator it = cluster_indices.begin(); it != cluster_indices.end(); ++it, j++ ){
 		pcl::PointCloud<PointNormal>::Ptr cloud_cluster_don( new pcl::PointCloud<PointNormal>);
-		for ( std::vector<int>::const_iterator pit = it->indices.begin(); pit != it->indices.end(); ++pit )
-		{
+		for ( std::vector<int>::const_iterator pit = it->indices.begin(); pit != it->indices.end(); ++pit ){
 			cloud_cluster_don->points.push_back( doncloud->points[*pit] );
 		}
 

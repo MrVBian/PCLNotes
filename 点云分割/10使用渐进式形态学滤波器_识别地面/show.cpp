@@ -10,7 +10,7 @@ int main( int argc, char** argv ) {
 	pcl::PointIndicesPtr			ground( new pcl::PointIndices );
 
 	pcl::PCDReader reader;
-	reader.read<pcl::PointXYZ>( "../samp11-utm.pcd", *cloud );
+	reader.read<pcl::PointXYZ>( "../../datas/samp11-utm.pcd", *cloud );
 
 	std::cerr << "Cloud before filtering: " << std::endl;
 	std::cerr << *cloud << std::endl;
