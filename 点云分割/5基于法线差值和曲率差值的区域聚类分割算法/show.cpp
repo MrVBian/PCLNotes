@@ -27,13 +27,18 @@ int main( int argc, char** argv ){
 	normal_estimator.setKSearch( 50 ); /* 临近50个点 */
 	normal_estimator.compute( *normals );
 
+    /************************************************************************************
+   创建直通滤波器的对象，设立参数，滤波字段名被设置为Z轴方向，可接受的范围为（0.0，1.0）
+   即将点云中所有点的Z轴坐标不在该范围内的点过滤掉或保留，这里是过滤掉，由函数setFilterLimitsNegative设定
+   ***********************************************************************************/
 	/* 直通滤波在Z轴的0到1米之间 剔除　nan　和　噪点 */
 	pcl::IndicesPtr			indices( new std::vector <int>);
 	pcl::PassThrough<pcl::PointXYZ> pass;
-	pass.setInputCloud( cloud );
-	pass.setFilterFieldName( "z" );
-	pass.setFilterLimits( 0.0, 1.0 );
-	pass.filter( *indices );
+	pass.setInputCloud( cloud );                                //设置输入点云
+	pass.setFilterFieldName( "z" );                             //设置过滤时所需要点云类型的Z字段
+	pass.setFilterLimits( 0.0, 1.0 );                           //设置在过滤字段的范围
+    //pass.setFilterLimitsNegative (true);                      //设置保留范围内还是过滤掉范围内
+	pass.filter( *indices );                                    //执行滤波，保存过滤结果在indices
 	/* 区域增长聚类分割对象　<点，法线> */
 	pcl::RegionGrowing<pcl::PointXYZ, pcl::Normal> reg;
 	reg.setMinClusterSize( 50 );                                                            /* 最小的聚类的点数 */
@@ -70,8 +75,7 @@ int main( int argc, char** argv ){
 	pcl::PointCloud <pcl::PointXYZRGB>::Ptr colored_cloud = reg.getColoredCloud();
 	pcl::visualization::CloudViewer		viewer( "Cluster viewer" );
 	viewer.showCloud( colored_cloud );
-	while ( !viewer.wasStopped() )
-	{
+	while ( !viewer.wasStopped() ){
 	}
 
 	return(0);

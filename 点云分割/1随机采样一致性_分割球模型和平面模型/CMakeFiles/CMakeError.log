@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_96d3e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_96d3e.dir/build.make CMakeFiles/cmTC_96d3e.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_96d3e.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_96d3e.dir/CheckSymbolExists.c.o   -c /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_96d3e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d3e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_96d3e.dir/CheckSymbolExists.c.o  -o cmTC_96d3e 
-CMakeFiles/cmTC_96d3e.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Run Build Command:"/usr/bin/make" "cmTC_d47b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d47b2.dir/build.make CMakeFiles/cmTC_d47b2.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d47b2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d47b2.dir/CheckSymbolExists.c.o   -c /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d47b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d47b2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d47b2.dir/CheckSymbolExists.c.o  -o cmTC_d47b2 
+CMakeFiles/cmTC_d47b2.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_96d3e.dir/build.make:97: recipe for target 'cmTC_96d3e' failed
-make[1]: *** [cmTC_96d3e] Error 1
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_96d3e/fast' failed
-make: *** [cmTC_96d3e/fast] Error 2
+CMakeFiles/cmTC_d47b2.dir/build.make:97: recipe for target 'cmTC_d47b2' failed
+make[1]: *** [cmTC_d47b2] Error 1
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_d47b2/fast' failed
+make: *** [cmTC_d47b2/fast] Error 2
 
-File /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/CMakeTmp
+Change Dir: /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_80f21/fast"
-/usr/bin/make -f CMakeFiles/cmTC_80f21.dir/build.make CMakeFiles/cmTC_80f21.dir/build
-make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_80f21.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_80f21.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_80f21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80f21.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_80f21.dir/CheckFunctionExists.c.o  -o cmTC_80f21 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_7a583/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a583.dir/build.make CMakeFiles/cmTC_7a583.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7a583.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7a583.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a583.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7a583.dir/CheckFunctionExists.c.o  -o cmTC_7a583 -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_80f21.dir/build.make:97: recipe for target 'cmTC_80f21' failed
-make[1]: *** [cmTC_80f21] Error 1
-make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_80f21/fast' failed
-make: *** [cmTC_80f21/fast] Error 2
+CMakeFiles/cmTC_7a583.dir/build.make:97: recipe for target 'cmTC_7a583' failed
+make[1]: *** [cmTC_7a583] Error 1
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_7a583/fast' failed
+make: *** [cmTC_7a583/fast] Error 2
 
 

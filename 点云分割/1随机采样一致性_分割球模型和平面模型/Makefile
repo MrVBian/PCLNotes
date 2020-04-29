@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型
+CMAKE_SOURCE_DIR = /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型
+CMAKE_BINARY_DIR = /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

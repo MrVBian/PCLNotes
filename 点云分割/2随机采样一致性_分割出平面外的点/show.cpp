@@ -12,7 +12,7 @@ int main( int argc, char** argv ){
 	/* 新建点云 */
 	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud( new pcl::PointCloud<pcl::PointXYZ>);
 	/* 随机生成点云 */
-	cloud->width	= 15;
+	cloud->width	= 50;
 	cloud->height	= 1;                    /* 无序点云 */
 	cloud->points.resize( cloud->width * cloud->height );
 	/* 生成 */
@@ -70,7 +70,7 @@ int main( int argc, char** argv ){
 
     /* 3D点云显示 源点云　绿色 */
 	pcl::visualization::PCLVisualizer viewer( "3D Viewer" );
-	viewer.setBackgroundColor( 255, 255, 255 ); /* 背景颜色　白色 */
+	// viewer.setBackgroundColor( 255, 255, 255 ); /* 背景颜色　白色 */
 	/*
 	 * pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> color_handler(cloud, 1.0, 1.0, 0.0);
 	 * viewer.addPointCloud (cloud, color_handler, "raw point");//添加点云

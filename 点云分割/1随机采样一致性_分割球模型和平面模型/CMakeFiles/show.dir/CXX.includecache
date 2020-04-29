@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/show.cpp
+/home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/show.cpp
 iostream
 -
 pcl/console/parse.h

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/show.cpp" "/home/bian/document/github/PCLNotes/点云分割/随机采样一致性_球模型和平面模型/CMakeFiles/show.dir/show.cpp.o"
+  "/home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/show.cpp" "/home/bian/document/github/PCLNotes/点云分割/1随机采样一致性_分割球模型和平面模型/CMakeFiles/show.dir/show.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

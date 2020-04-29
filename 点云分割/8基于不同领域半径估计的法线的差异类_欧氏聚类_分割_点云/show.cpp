@@ -104,7 +104,7 @@ int main( int argc, char *argv[] ) {
 
 	/* Save DoN features */
 	pcl::PCDWriter writer;
-	writer.write<pcl::PointNormal> ( "don.pcd", *doncloud, false );
+	writer.write<pcl::PointNormal> ( "../../datas/region_growing_tutorial.pcd", *doncloud, false );
 
 	/* Filter by magnitude */
 	cout << "Filtering out DoN mag <= " << threshold << "..." << endl;
