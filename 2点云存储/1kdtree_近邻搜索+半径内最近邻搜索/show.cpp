@@ -56,13 +56,14 @@ int main( int argc, char** argv ) {
 	 *                                                     std::vector< float > &  k_sqr_distances
 	 *                                                     )  const [pure virtual]
 	 * Search for k-nearest neighbors for the given query point.
+     * 搜索给定查询点的k个近邻.
 	 * Parameters:
-	 *     [in] the given query point
-	 *     [in] k the number of neighbors to search for
-	 *     [out] the resultant indices of the neighboring points
-	 *     [out] the resultant squared distances to the neighboring points
-	 * Returns:
-	 *     number of neighbors found
+     *     [in] 给定查询点
+     *     [in] 要搜索的近邻点个数k  
+     *     [out] 相邻点的结果索引
+     *     [out] 到相邻点的最终平方距离
+     * Returns:
+     *     找到的近邻点数量
 	 ********************************************************************************************/
 	if ( kdtree.nearestKSearch( searchPoint, K, pointIdxNKNSearch, pointNKNSquaredDistance ) > 0 ){
 		for ( size_t i = 0; i < pointIdxNKNSearch.size(); ++i )
@@ -75,10 +76,11 @@ int main( int argc, char** argv ) {
 					<< std::endl;
 	}
 
-	/* 半径内最近领搜索 Neighbors within radius search */
-	std::vector<int>	pointIdxRadiusSearch;                           /* 半价搜索得到的索引 */
+	/* 半径内最近邻搜索 Neighbors within radius search */
+	std::vector<int>	pointIdxRadiusSearch;                           /* 半径搜索得到的索引 */
 	std::vector<float>	pointRadiusSquaredDistance;                     /* 平方距离 */
-	float			radius = 256.0f * rand() / (RAND_MAX + 1.0f);   /* 随机产生一个半价 */
+	float			radius = 256.0f * rand() / (RAND_MAX + 1.0f);   /* 随机产生一个半径 */
+    radius = std::min(radius, float(20.0) );
 	std::cout	<< "Neighbors within radius search at (" << searchPoint.x
 			<< " " << searchPoint.y
 			<< " " << searchPoint.z

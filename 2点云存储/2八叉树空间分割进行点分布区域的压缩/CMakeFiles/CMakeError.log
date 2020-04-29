@@ -1,0 +1,110 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acf3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acf3b.dir/build.make CMakeFiles/cmTC_acf3b.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_acf3b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_acf3b.dir/CheckSymbolExists.c.o   -c /home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_acf3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acf3b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_acf3b.dir/CheckSymbolExists.c.o  -o cmTC_acf3b 
+CMakeFiles/cmTC_acf3b.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_acf3b.dir/build.make:97: recipe for target 'cmTC_acf3b' failed
+make[1]: *** [cmTC_acf3b] Error 1
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_acf3b/fast' failed
+make: *** [cmTC_acf3b/fast] Error 2
+
+File /home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01805/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01805.dir/build.make CMakeFiles/cmTC_01805.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_01805.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_01805.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01805.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_01805.dir/CheckFunctionExists.c.o  -o cmTC_01805 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_01805.dir/build.make:97: recipe for target 'cmTC_01805' failed
+make[1]: *** [cmTC_01805] Error 1
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_01805/fast' failed
+make: *** [cmTC_01805/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b155/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b155.dir/build.make CMakeFiles/cmTC_1b155.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1b155.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1b155.dir/CheckSymbolExists.c.o   -c /home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1b155
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b155.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1b155.dir/CheckSymbolExists.c.o  -o cmTC_1b155 
+CMakeFiles/cmTC_1b155.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1b155.dir/build.make:97: recipe for target 'cmTC_1b155' failed
+make[1]: *** [cmTC_1b155] Error 1
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_1b155/fast' failed
+make: *** [cmTC_1b155/fast] Error 2
+
+File /home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_475f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_475f1.dir/build.make CMakeFiles/cmTC_475f1.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_475f1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_475f1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_475f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_475f1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_475f1.dir/CheckFunctionExists.c.o  -o cmTC_475f1 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_475f1.dir/build.make:97: recipe for target 'cmTC_475f1' failed
+make[1]: *** [cmTC_475f1] Error 1
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_475f1/fast' failed
+make: *** [cmTC_475f1/fast] Error 2
+
+

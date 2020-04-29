@@ -73,7 +73,6 @@ int main( int argc, char** argv ){
 	octree.setInputCloud( cloudB_ptr );
 	octree.addPointsFromInputCloud();
 
-
     /*
      * 为了检索到获取存在于cloudB的点集R，此R并没有cloudA中元素，   B - B交A
      * 可以调用getPointIndicesFromNewVoxels方法，通过探测两个八叉树之间体素的不同，

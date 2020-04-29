@@ -5,7 +5,7 @@
  * octree.nearestKSearch
  * octree.radiusSearch
  * octree是一种用于管理稀疏3D数据的树状数据结构，
- * 每个内部节点都正好有八个子节点，本小节中我们学习如何用octree在点云数据中进行空间划分及近邻搜索，
+ * 每个内部节点都正好有八个子节点，学习如何用octree在点云数据中进行空间划分及近邻搜索，
  * 特别地，解释了如何完成
  * “体素内近邻搜索(Neighbors within Voxel Search)”、
  * “K近邻搜索(K Nearest Neighbor Search)”和
@@ -100,7 +100,8 @@ int main( int argc, char** argv ) {
 	std::vector<int>	pointIdxRadiusSearch;           /* 半径内近邻搜索 点索引结果 */
 	std::vector<float>	pointRadiusSquaredDistance;     /* 与上面对应的平方距离 */
 
-	float radius = 256.0f * rand() / (RAND_MAX + 1.0f);     /* 随机半价 */
+	float radius = 256.0f * rand() / (RAND_MAX + 1.0f);     /* 随机半径 */
+    // radius = std::min(radius, float(50.0) );
 
 	std::cout	<< "Neighbors within radius search at ("
 			<< searchPoint.x << " "

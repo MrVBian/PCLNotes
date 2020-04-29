@@ -1,0 +1,7 @@
+/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/install/strip.dir
+/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/install/local.dir
+/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/edit_cache.dir
+/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/show.dir
+/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/rebuild_cache.dir
+/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/install.dir
+/home/bian/document/github/PCLNotes/2点云存储/2八叉树空间分割进行点分布区域的压缩/CMakeFiles/list_install_components.dir

@@ -1,0 +1,7 @@
+/home/bian/document/github/PCLNotes/2点云存储/4无序点云数据集的空间变化检测/CMakeFiles/install/strip.dir
+/home/bian/document/github/PCLNotes/2点云存储/4无序点云数据集的空间变化检测/CMakeFiles/install/local.dir
+/home/bian/document/github/PCLNotes/2点云存储/4无序点云数据集的空间变化检测/CMakeFiles/edit_cache.dir
+/home/bian/document/github/PCLNotes/2点云存储/4无序点云数据集的空间变化检测/CMakeFiles/show.dir
+/home/bian/document/github/PCLNotes/2点云存储/4无序点云数据集的空间变化检测/CMakeFiles/rebuild_cache.dir
+/home/bian/document/github/PCLNotes/2点云存储/4无序点云数据集的空间变化检测/CMakeFiles/install.dir
+/home/bian/document/github/PCLNotes/2点云存储/4无序点云数据集的空间变化检测/CMakeFiles/list_install_components.dir
