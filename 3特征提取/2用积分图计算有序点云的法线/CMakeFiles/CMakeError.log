@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/bian/document/github/PCLNotes/3特征提取/2用积分图计算有序点云的法线/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a84da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a84da.dir/build.make CMakeFiles/cmTC_a84da.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/3特征提取/2用积分图计算有序点云的法线/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a84da.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a84da.dir/CheckSymbolExists.c.o   -c /home/bian/document/github/PCLNotes/3特征提取/2用积分图计算有序点云的法线/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a84da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a84da.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a84da.dir/CheckSymbolExists.c.o  -o cmTC_a84da 
+CMakeFiles/cmTC_a84da.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a84da.dir/build.make:97: recipe for target 'cmTC_a84da' failed
+make[1]: *** [cmTC_a84da] Error 1
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/3特征提取/2用积分图计算有序点云的法线/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_a84da/fast' failed
+make: *** [cmTC_a84da/fast] Error 2
+
+File /home/bian/document/github/PCLNotes/3特征提取/2用积分图计算有序点云的法线/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/bian/document/github/PCLNotes/3特征提取/2用积分图计算有序点云的法线/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64f75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64f75.dir/build.make CMakeFiles/cmTC_64f75.dir/build
+make[1]: 进入目录“/home/bian/document/github/PCLNotes/3特征提取/2用积分图计算有序点云的法线/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_64f75.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_64f75.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_64f75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f75.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_64f75.dir/CheckFunctionExists.c.o  -o cmTC_64f75 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_64f75.dir/build.make:97: recipe for target 'cmTC_64f75' failed
+make[1]: *** [cmTC_64f75] Error 1
+make[1]: 离开目录“/home/bian/document/github/PCLNotes/3特征提取/2用积分图计算有序点云的法线/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_64f75/fast' failed
+make: *** [cmTC_64f75/fast] Error 2
+
+

@@ -1,0 +1,15 @@
+法线估计类NormalEstimation的实际计算调用程序内部执行以下操作：
+对点云P中的每个点p
+1. 得到p点的最近邻元素
+2. 计算p点的表面法线n
+3. 检查n的方向是否一致指向视点，如果不是则翻转
+ 
+ 在PCL内估计一点集对应的协方差矩阵，可以使用以下函数调用实现：
+//定义每个表面小块的3x3协方差矩阵的存储对象
+ Eigen::Matrix3fcovariance_matrix;
+//定义一个表面小块的质心坐标16-字节对齐存储对象
+Eigen::Vector4fxyz_centroid;
+//估计质心坐标
+compute3DCentroid(cloud,xyz_centroid);
+//计算3x3协方差矩阵
+computeCovarianceMatrix(cloud,xyz_centroid,covariance_matrix);
