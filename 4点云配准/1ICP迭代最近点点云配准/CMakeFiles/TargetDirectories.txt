@@ -1,0 +1,7 @@
+/home/bian/document/github/PCLNotes/4点云配准/1GITHUB/CMakeFiles/install/strip.dir
+/home/bian/document/github/PCLNotes/4点云配准/1GITHUB/CMakeFiles/install/local.dir
+/home/bian/document/github/PCLNotes/4点云配准/1GITHUB/CMakeFiles/edit_cache.dir
+/home/bian/document/github/PCLNotes/4点云配准/1GITHUB/CMakeFiles/show.dir
+/home/bian/document/github/PCLNotes/4点云配准/1GITHUB/CMakeFiles/rebuild_cache.dir
+/home/bian/document/github/PCLNotes/4点云配准/1GITHUB/CMakeFiles/install.dir
+/home/bian/document/github/PCLNotes/4点云配准/1GITHUB/CMakeFiles/list_install_components.dir
