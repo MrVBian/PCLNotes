@@ -24,7 +24,7 @@ int main( int argc, char** argv ) {
 	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_ptr( new pcl::PointCloud<pcl::PointXYZ> () );
 
 	if ( argc != 2 ) {
-		if ( pcl::io::loadPCDFile( "../lamppost.pcd", *cloud_ptr ) == -1 )
+		if ( pcl::io::loadPCDFile( "../../datas/lamppost.pcd", *cloud_ptr ) == -1 )
 			return(-1);
 	}else if ( pcl::io::loadPCDFile( argv[1], *cloud_ptr ) == -1 )
 		return(-1);

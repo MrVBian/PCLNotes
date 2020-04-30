@@ -35,7 +35,7 @@ int main( int argc, char** argv ) {
 
 	/* 读取点云文件　填充点云对象 */
 	pcl::PCDReader reader;
-	reader.read( "../../Filtering/table_scene_lms400.pcd", *cloud_ptr );
+	reader.read( "../../datas/table_scene_lms400.pcd", *cloud_ptr );
 	if ( cloud_ptr == NULL ) {
 		cout << "pcd file read err" << endl; return(-1);
 	}

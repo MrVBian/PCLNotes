@@ -35,15 +35,15 @@ int main( int argc, char** argv ) {
 	std::ifstream			triangles_file;
 
 	if ( argc != 4 ){
-		if ( pcl::io::loadPCDFile( "../points.pcd", *cloud_ptr ) == -1 )
+		if ( pcl::io::loadPCDFile( "./datas/points.pcd", *cloud_ptr ) == -1 )
 			return(-1);
-		indices_file.open( "../indices.txt", std::ifstream::in );
+		indices_file.open( "./datas/indices.txt", std::ifstream::in );
 		if ( indices_file == NULL ){
 			std::cout << "not found index.txt file" << std::endl;
 			return(-1);
 		}
 
-		triangles_file.open( "../triangles.txt", std::ifstream::in );
+		triangles_file.open( "./datas/triangles.txt", std::ifstream::in );
 		if ( triangles_file == NULL ){
 			std::cout << "not found triangles.txt file" << std::endl;
 			return(-1);

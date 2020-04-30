@@ -31,7 +31,7 @@ int main( int argc, char** argv ){
 
 	/* 读取点云文件　填充点云对象 */
 	pcl::PCDReader reader;
-	reader.read( "../../datas/table_scene_lms400.pcd", *cloud_ptr );
+	reader.read( "../../datas/Sphere.pcd", *cloud_ptr );
 	if ( cloud_ptr == NULL ){
 		cout << "pcd file read err" << endl; return(-1);
 	}
@@ -98,8 +98,8 @@ int main( int argc, char** argv ){
 	viewer_ptr->setPointCloudRenderingProperties( pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3, "original point cloud" );
 	/* 渲染属性，可视化工具，3维数据， 其中PCL_VISUALIZER_POINT_SIZE表示设置点的大小为3 */
     // pcl::io::savePCDFileASCII ("test_pcd.pcd", cloud_ptr);
-    pcl::PCDWriter writer;
-    writer.write("./save.pcd",*cloud_ptr);
+    // pcl::PCDWriter writer;
+    // writer.write("./save.pcd",*cloud_ptr);
 
 	/*
 	 * viewer_ptr->addCoordinateSystem(1.0);//建立空间直角坐标系

@@ -12,6 +12,7 @@
 #include <iostream>
 #include <pcl/point_types.h>
 #include <pcl/io/pcd_io.h>                      /* 点云文件pcd 读写 */
+#include <pcl/io/ply_io.h>                      /* 点云文件ply 读写 */
 #include <pcl/visualization/cloud_viewer.h>     /* 点云可视化 */
 /* #include <pcl/features/normal_3d.h>//法线特征 */
 #include <pcl/features/integral_image_normal.h>
@@ -27,10 +28,10 @@ int main( int argc, char** argv ){
 	Cloud::Ptr cloud_ptr( new Cloud );
 
 	/* 读取点云文件　填充点云对象 */
-	pcl::PCDReader reader;
-	reader.read( "../../datas/table_scene_lms400.pcd", *cloud_ptr ); /* 非有序点云不可用 */
+	pcl::PLYReader reader;
+	reader.read( "../../datas/bun_zipper_res2.ply", *cloud_ptr ); /* 非有序点云不可用 */
 	if ( cloud_ptr == NULL ){
-		cout << "pcd file read err" << endl; return(-1);
+		cout << "ply file read err" << endl; return(-1);
 	}
 	cout	<< "PointCLoud size() " << cloud_ptr->width * cloud_ptr->height
 		<< " data points ( " << pcl::getFieldsList( *cloud_ptr ) << "." << endl;
