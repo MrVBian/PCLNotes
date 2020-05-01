@@ -1,7 +1,0 @@
-/home/bian/document/github/PCLNotes/Visualizer/4以颜色区别深度/CMakeFiles/install/strip.dir
-/home/bian/document/github/PCLNotes/Visualizer/4以颜色区别深度/CMakeFiles/install/local.dir
-/home/bian/document/github/PCLNotes/Visualizer/4以颜色区别深度/CMakeFiles/edit_cache.dir
-/home/bian/document/github/PCLNotes/Visualizer/4以颜色区别深度/CMakeFiles/show.dir
-/home/bian/document/github/PCLNotes/Visualizer/4以颜色区别深度/CMakeFiles/rebuild_cache.dir
-/home/bian/document/github/PCLNotes/Visualizer/4以颜色区别深度/CMakeFiles/install.dir
-/home/bian/document/github/PCLNotes/Visualizer/4以颜色区别深度/CMakeFiles/list_install_components.dir

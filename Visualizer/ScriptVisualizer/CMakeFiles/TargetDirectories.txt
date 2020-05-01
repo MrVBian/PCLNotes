@@ -1,7 +1,0 @@
-/home/bian/document/github/PCLNotes/Visualizer/ScriptVisualizer/CMakeFiles/install/strip.dir
-/home/bian/document/github/PCLNotes/Visualizer/ScriptVisualizer/CMakeFiles/install/local.dir
-/home/bian/document/github/PCLNotes/Visualizer/ScriptVisualizer/CMakeFiles/edit_cache.dir
-/home/bian/document/github/PCLNotes/Visualizer/ScriptVisualizer/CMakeFiles/show.dir
-/home/bian/document/github/PCLNotes/Visualizer/ScriptVisualizer/CMakeFiles/rebuild_cache.dir
-/home/bian/document/github/PCLNotes/Visualizer/ScriptVisualizer/CMakeFiles/install.dir
-/home/bian/document/github/PCLNotes/Visualizer/ScriptVisualizer/CMakeFiles/list_install_components.dir

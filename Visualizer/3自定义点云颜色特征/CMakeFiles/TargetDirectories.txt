@@ -1,7 +1,0 @@
-/home/bian/document/github/PCLNotes/Visualizer/3自定义点云颜色特征/CMakeFiles/install/strip.dir
-/home/bian/document/github/PCLNotes/Visualizer/3自定义点云颜色特征/CMakeFiles/install/local.dir
-/home/bian/document/github/PCLNotes/Visualizer/3自定义点云颜色特征/CMakeFiles/edit_cache.dir
-/home/bian/document/github/PCLNotes/Visualizer/3自定义点云颜色特征/CMakeFiles/show.dir
-/home/bian/document/github/PCLNotes/Visualizer/3自定义点云颜色特征/CMakeFiles/rebuild_cache.dir
-/home/bian/document/github/PCLNotes/Visualizer/3自定义点云颜色特征/CMakeFiles/install.dir
-/home/bian/document/github/PCLNotes/Visualizer/3自定义点云颜色特征/CMakeFiles/list_install_components.dir
