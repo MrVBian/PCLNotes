@@ -1,21 +1,3 @@
-/*
- * RoPs特征(Rotational Projection Statistics) 描述子
- * 0.在关键点出建立局部坐标系。
- * 1.在一个给定的角度在当前坐标系下对关键点领域(局部表面) 进行旋转
- * 2.把 局部表面 投影到 xy，yz，xz三个2维平面上
- * 3.在每个投影平面上划分不同的盒子容器，把点分到不同的盒子里
- * 4.根据落入每个盒子的数量，来计算每个投影面上的一系列数据分布
- * （熵值，低阶中心矩
- * 5.M11,M12,M21,M22，E。E是信息熵。4*2+1=9）进行描述
- * 计算值将会组成子特征。
- * 盒子数量 × 旋转次数×9 得到特征维度
- * 我们把上面这些步骤进行多次迭代。不同坐标轴的子特征将组成RoPS描述器
- * 我们首先要找到目标模型:
- * points 包含点云
- * indices 点的下标
- * triangles包含了多边形
- */
-
 #include <pcl/features/rops_estimation.h>
 #include <pcl/io/pcd_io.h>
 #include <pcl/visualization/pcl_plotter.h>      /* 直方图的可视化 方法2 */
@@ -38,13 +20,13 @@ int main( int argc, char** argv ) {
 		if ( pcl::io::loadPCDFile( "./datas/points.pcd", *cloud_ptr ) == -1 )
 			return(-1);
 		indices_file.open( "./datas/indices.txt", std::ifstream::in );
-		if ( indices_file == NULL ){
+		if ( !indices_file ){
 			std::cout << "not found index.txt file" << std::endl;
 			return(-1);
 		}
 
 		triangles_file.open( "./datas/triangles.txt", std::ifstream::in );
-		if ( triangles_file == NULL ){
+		if ( !triangles_file ){
 			std::cout << "not found triangles.txt file" << std::endl;
 			return(-1);
 		}

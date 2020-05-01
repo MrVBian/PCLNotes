@@ -1,18 +1,3 @@
-/*
- * moment_of_inertia.cpp
- * momentofinertiaestimation类获取基于惯性偏心矩 描述子。
- * 这个类还允许提取云的轴对齐和定向包围盒。
- * 但请记住，不可能的最小提取OBB包围盒。
- * 首先计算点云的协方差矩阵，提取其特征值和向量。
- * 你可以认为所得的特征向量是标准化的，
- * 总是形成右手坐标系（主要特征向量表示x轴，而较小的向量表示z轴）。
- * 在下一个步骤中，迭代过程发生。每次迭代时旋转主特征向量。
- * 旋转顺序总是相同的，并且在其他特征向量周围执行，
- * 这提供了点云旋转的不变性。
- * 此后，我们将把这个旋转主向量作为当前轴。
- * 然后在当前轴上计算转动惯量 和 将点云投影到以旋转向量为法线的平面上
- * 计算偏心距
- */
 #include <pcl/features/moment_of_inertia_estimation.h>
 #include <vector>
 #include <pcl/io/pcd_io.h>
@@ -24,7 +9,7 @@ int main( int argc, char** argv ) {
 	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_ptr( new pcl::PointCloud<pcl::PointXYZ> () );
 
 	if ( argc != 2 ) {
-		if ( pcl::io::loadPCDFile( "../../datas/lamppost.pcd", *cloud_ptr ) == -1 )
+		if ( pcl::io::loadPCDFile( "../../datas/Sphere.pcd", *cloud_ptr ) == -1 )
 			return(-1);
 	}else if ( pcl::io::loadPCDFile( argv[1], *cloud_ptr ) == -1 )
 		return(-1);

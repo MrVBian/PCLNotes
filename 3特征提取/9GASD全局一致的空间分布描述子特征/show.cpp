@@ -1,20 +1,3 @@
-/*
- * pcl版本 >= 1.9才有
- * 全局一致的空间分布描述子特征
- * Globally Aligned Spatial Distribution (GASD) descriptors
- * 可用于物体识别和姿态估计。
- * 是对可以描述整个点云的参考帧的估计，
- * 这是用来对准它的正则坐标系统
- * 之后，根据其三维点在空间上的分布，计算出点云的描述符。
- * 种描述符也可以扩展到整个点云的颜色分布。
- * 匹配点云(icp)的全局对齐变换用于计算物体姿态。
- * 使用主成分分析PCA来估计参考帧
- * 三维点云P
- * 计算其中心点位置P_
- * 计算协方差矩阵 1/n × sum((pi - P_)*(pi - P_)转置)
- * 奇异值分解得到 其 特征值eigen values  和特征向量eigen vectors
- * 基于参考帧计算一个变换 [R t]
- */
 #include <iostream>
 #include <pcl/point_types.h>
 #include <pcl/features/gasd.h>
@@ -29,23 +12,26 @@ typedef pcl::PointCloud<pcl::PointXYZ> Cloud;
 
 typedef pcl::PointXYZ PointType;
 
-int main( int argc, char** argv ) {
+int
+main( int argc, char** argv )
+{
 	/* 定义　点云对象　指针 */
 	Cloud::Ptr cloud_ptr( new Cloud );
 
 	/* 读取点云文件　填充点云对象 */
 	pcl::PCDReader reader;
-	reader.read( "../../datas/table_scene_lms400.pcd", *cloud_ptr );
-	if ( cloud_ptr == NULL ) {
+	reader.read( "../../Filtering/table_scene_lms400.pcd", *cloud_ptr );
+	if ( cloud_ptr == NULL )
+	{
 		cout << "pcd file read err" << endl; return(-1);
 	}
 	cout	<< "PointCLoud size() " << cloud_ptr->width * cloud_ptr->height
 		<< " data points ( " << pcl::getFieldsList( *cloud_ptr ) << "." << endl;
 
-    /*
-     * 创建 GASD 全局一致的空间分布描述子特征 传递 点云
-     * pcl::GASDColorEstimation<pcl::PointXYZRGBA, pcl::GASDSignature984> gasd;//包含颜色
-     */
+/*
+ * 创建 GASD 全局一致的空间分布描述子特征 传递 点云
+ * pcl::GASDColorEstimation<pcl::PointXYZRGBA, pcl::GASDSignature984> gasd;//包含颜色
+ */
 	pcl::GASDColorEstimation<pcl::PointXYZ, pcl::GASDSignature984> gasd;
 	gasd.setInputCloud( cloud_ptr );
 
@@ -59,23 +45,24 @@ int main( int argc, char** argv ) {
 	Eigen::Matrix4f trans = gasd.getTransform();
 
 	/* Unpack histogram bins */
-	for ( size_t i = 0; i < size_t( descriptor[0].descriptorSize() ); ++i ) {
+	for ( size_t i = 0; i < size_t( descriptor[0].descriptorSize() ); ++i )
+	{
 		descriptor[0].histogram[i];
 	}
 
-    /*
-    * 可视化
-    * pcl::visualization::PCLPlotter plotter;
-    *  plotter.addFeatureHistogram(descriptor[0].histogram, 300); //设置的很坐标长度，该值越大，则显示的越细致
-    * plotter.plot();
-    */
+/*
+ * 可视化
+ * pcl::visualization::PCLPlotter plotter;
+ *  plotter.addFeatureHistogram(descriptor[0].histogram, 300); //设置的很坐标长度，该值越大，则显示的越细致
+ * plotter.plot();
+ */
 
 	/*
 	 * 点云+法线 可视化
 	 * pcl::visualization::PCLVisualizer viewer("pcd　viewer");// 显示窗口的名字
 	 */
 	boost::shared_ptr<pcl::visualization::PCLVisualizer> viewer_ptr( new pcl::visualization::PCLVisualizer( "3D Viewer" ) );
-    /* 设置一个boost共享对象，并分配内存空间 */
+/* 设置一个boost共享对象，并分配内存空间 */
 	viewer_ptr->setBackgroundColor( 0.0, 0.0, 0.0 );                                                                /* 背景黑色 */
 	/* viewer.setBackgroundColor (1, 1, 1);//白色 */
 	viewer_ptr->addCoordinateSystem( 1.0f, "global" );                                                              /* 坐标系 */
@@ -96,7 +83,8 @@ int main( int argc, char** argv ) {
 	 */
 	viewer_ptr->initCameraParameters();                                                                             /* 初始化相机参数 */
 
-	while ( !viewer_ptr->wasStopped() ) {
+	while ( !viewer_ptr->wasStopped() )
+	{
 		viewer_ptr->spinOnce();
 		pcl_sleep( 0.01 );
 	}
